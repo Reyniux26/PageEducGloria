@@ -66,4 +66,7 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+  .py-2 bg-body-tertiary border-bottom{
+ flex-direction: column-reverse;
+  }
 }
