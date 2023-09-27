@@ -17,6 +17,10 @@
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
+nav me-auto{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-color: brown;
+}
 
 @keyframes logo-spin {
   from {
