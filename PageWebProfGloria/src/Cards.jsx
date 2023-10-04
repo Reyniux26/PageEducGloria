@@ -14,7 +14,7 @@ function Cards() {
       preserveAspectRatio="xMidYMid slice"
       focusable="false"
     >
-      <title>Placeholder</title>
+      <title>Publicaciones</title>
       <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
     </svg>
     <h2 className="fw-normal">Heading</h2>
@@ -23,9 +23,9 @@ function Cards() {
       below the carousel. This is the first column.
     </p>
     <p>
-      <a className="btn btn-secondary" href="#">
+      <navLink  className="btn btn-secondary" to="#">
         View details »
-      </a>
+      </navLink>
     </p>
   </div>
   {/* /.col-lg-4 */}
@@ -49,9 +49,9 @@ function Cards() {
       we've moved on to the second column.
     </p>
     <p>
-      <a className="btn btn-secondary" href="#">
+      <navLink className="btn btn-secondary" to="#">
         View details »
-      </a>
+      </navLink>
     </p>
   </div>
   {/* /.col-lg-4 */}
@@ -74,9 +74,9 @@ function Cards() {
       And lastly this, the third column of representative placeholder content.
     </p>
     <p>
-      <a className="btn btn-secondary" href="#">
+      <navLink className="btn btn-secondary" to="#">
         View details »
-      </a>
+      </navLink>
     </p>
   </div>
   {/* /.col-lg-4 */}
