@@ -11,12 +11,7 @@
   will-change: filter;
   transition: filter 300ms;
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
+
 nav me-auto{
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   border-color: brown;
@@ -43,4 +38,7 @@ nav me-auto{
 
 .read-the-docs {
   color: #888;
+}
+.container d-flex flex-wrap{
+  background-color: #EDF2F4;
 }
