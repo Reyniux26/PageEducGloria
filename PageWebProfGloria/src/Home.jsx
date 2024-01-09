@@ -5,6 +5,7 @@ import Acerca from './Componentes/Acerca';
 import { Header } from './Header'
 import Trayectoria from './Componentes/Trayectoria';
 import Contacto from './Componentes/Contacto';
+import Publicacion from './Componentes/Publicacion';
 
 export const Home = () => {
   return (
@@ -55,6 +56,7 @@ export const Home = () => {
 </div>
 <Acerca></Acerca>
 <Trayectoria></Trayectoria>
+<Publicacion></Publicacion>
 <Contacto></Contacto>
 
 </div>

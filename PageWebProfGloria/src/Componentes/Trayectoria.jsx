@@ -9,7 +9,7 @@ const Trayectoria = () => {
     <div className="col-md-12">
       <div className="card">
         <div className="card-body">
-          <h6 className="card-title">Trayectoria</h6>
+          <h4 className="card-title">Trayectoria</h4>
           <div id="content">
             <ul className="timeline">
               <li className="event" data-date="26 Septiembre">

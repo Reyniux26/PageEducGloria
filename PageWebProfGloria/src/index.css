@@ -205,4 +205,12 @@ body{margin-top:20px;}
 .button btn btn-secondary{
   color: #EB246C;
 }
+.slider-container{
+  margin: 50;
+  padding-top: 30;
+}
+.carouselExampleIndicators{
+ width: 300%;
+ height: 400%;
+}
 
