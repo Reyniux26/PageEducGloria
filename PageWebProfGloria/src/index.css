@@ -241,3 +241,12 @@ height: max-content;
   display: flex;
   flex-direction: row-reverse;
 }
+.BOTONES{
+  margin: 150px;
+}
+img{
+  display: flex;
+}
+.carousel slide{
+margin: 40px;
+}
