@@ -250,3 +250,7 @@ img{
 .carousel slide{
 margin: 40px;
 }
+.col-lg-6{
+  border-radius: 10px;
+  border-color: #1a1a1a;
+}

@@ -56,7 +56,7 @@ export const Home = () => {
   
 </div>
 <Acerca></Acerca>
-<div className='container'>
+<div className='container-fras'>
     <hr/>
     <h3>"Inserte aqui la frase"</h3>
     <hr/>
