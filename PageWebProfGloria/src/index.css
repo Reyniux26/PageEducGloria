@@ -214,3 +214,18 @@ body{margin-top:20px;}
  height: 400%;
 }
 
+.carousel-inner{
+  width: auto;
+  height: auto;
+  display: center;
+  background-color: #EB246C;
+}
+hr{
+  background-color: #24b6eb;
+  height: 10px;
+  width: 100%;
+  display: center;
+}
+.carousel-inner{
+ align-items: center;
+}

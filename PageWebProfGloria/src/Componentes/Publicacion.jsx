@@ -1,6 +1,6 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import 'bootstrap/dist/js/bootstrap.bundle.min';
 const Publicacion = () => {
   return (
 <div id="carouselExampleIndicators" className="carousel slide">
@@ -30,7 +30,7 @@ const Publicacion = () => {
       aria-label="Slide 3"
     />
   </div>
-  <div className="carousel-inner">
+  <div className="carousel-inner" >
     <div className="carousel-item active">
       <img src="/img/Piz1.jpg" className="d-block w-100" alt="Slide 1" />
     </div>

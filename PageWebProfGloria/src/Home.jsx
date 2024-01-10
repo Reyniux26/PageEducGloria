@@ -32,29 +32,35 @@ export const Home = () => {
         </a>
       </li>
       <li className="nav-item">
-        <a href="#" className="nav-link">
+        <a href="/src/Pages/Trayectoria.jsx" className="nav-link">
           Trayectoria
         </a>
       </li>
       <li className="nav-item">
-        <a href="#" className="nav-link">
+        <a href="/src/Pages/Publicaciones.jsx" className="nav-link">
           Publicaciones
         </a>
       </li>
       <li className="nav-item">
-        <a href="#" className="nav-link">
+        <a href="/src/Pages/MaterialExterno.jsx" className="nav-link">
           Material Externo
         </a>
       </li>
       <li className="nav-item">
-        <a href="#" className="nav-link">
+        <a href="/src/Pages/Slider.jsx" className="nav-link">
           Contacto
         </a>
       </li>
     </ul>
   </header>
+  
 </div>
 <Acerca></Acerca>
+<div className='container'>
+    <hr/>
+    <h3>"Inserte aqui la frase"</h3>
+    <hr/>
+  </div>
 <Trayectoria></Trayectoria>
 <Publicacion></Publicacion>
 <Contacto></Contacto>

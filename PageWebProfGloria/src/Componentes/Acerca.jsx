@@ -13,11 +13,11 @@ const Acerca = () => {
       Multiple lines of text that form the lede, informing new readers quickly
       and efficiently about what’s most interesting in this post’s contents.
     </p>
-    <p className="lead mb-0">
-    
-    </p>
+    <div className="flex-main-end ">
+      <img  src="/img/ftBien.jpg"  width="500" height="300"/>
+    </div>
   </div> 
-  {/*<img  src="/img/ftBien.jpg"  width="500" height="300"/>*/}
+
 </div>
 
     </div>
