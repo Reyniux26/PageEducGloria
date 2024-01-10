@@ -229,3 +229,12 @@ hr{
 .carousel-inner{
  align-items: center;
 }
+.container-bajo{
+background-color: #EB246C;
+width: fit-content;
+height: max-content;
+}
+.flex-main-end{
+  display: flex;
+  flex-direction: row-reverse;
+}
