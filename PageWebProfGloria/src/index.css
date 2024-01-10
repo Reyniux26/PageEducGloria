@@ -234,6 +234,9 @@ background-color: #EB246C;
 width: fit-content;
 height: max-content;
 }
+.carousel slide{
+  width: 300px;
+}
 .flex-main-end{
   display: flex;
   flex-direction: row-reverse;
