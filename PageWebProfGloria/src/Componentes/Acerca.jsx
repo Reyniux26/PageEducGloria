@@ -3,6 +3,7 @@ import React from 'react'
 const Acerca = () => {
   return (
 <div>
+  
 <div className="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
   <div className="col-lg-6 px-0">
     <h3>Acerca de mí</h3>
@@ -13,7 +14,7 @@ const Acerca = () => {
       Multiple lines of text that form the lede, informing new readers quickly
       and efficiently about what’s most interesting in this post’s contents.
     </p>
-    <div className="flex-main-end">
+    <div className="Foto1">
       <img className='pres' src="/img/ftBien.jpg"  width="500" height="300"/>
     </div>
   </div> 

@@ -254,3 +254,13 @@ margin: 40px;
   border-radius: 10px;
   border-color: #1a1a1a;
 }
+.Foto1{
+  display: inline-flexbox;
+  border-radius: 52%;
+  border-color: #EB246C;
+  border-top-left-radius: 36%;
+}
+col-lg-6 px-0{
+  display: flow-root;
+  flex-direction: row-reverse;
+}
