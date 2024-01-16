@@ -1,8 +1,9 @@
 import React from 'react'
+import { Header } from '../Header'
 
 function MaterialExterno() {
   return (
-    <div>MaterialExterno</div>
+    <Header></Header>
   )
 }
 

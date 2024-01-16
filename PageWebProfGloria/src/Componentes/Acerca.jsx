@@ -4,21 +4,21 @@ const Acerca = () => {
   return (
 <div>
   
-<div className="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
+<div className="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary"style={{ display: 'flex' }}>
   <div className="col-lg-6 px-0">
+    <br/>
     <h3>Acerca de mí</h3>
     <h2 className="display-4 fst-italic">
       Bienvenidos
     </h2>
     <p className="lead my-3">
-      Multiple lines of text that form the lede, informing new readers quickly
-      and efficiently about what’s most interesting in this post’s contents.
+      Soy Gloria del Jesús Hernández Marín
     </p>
-    <div className="Foto1">
-      <img className='pres' src="/img/ftBien.jpg"  width="500" height="300"/>
-    </div>
+    
   </div> 
-
+<div className="Foto1">
+      <img className='pres' src="/img/Gloria.jpg"  width="300" height="400"/>
+    </div>
 </div>
 
     </div>

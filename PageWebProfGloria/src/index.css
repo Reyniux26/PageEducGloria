@@ -213,15 +213,8 @@ body{margin-top:20px;}
  width: 300%;
  height: 400%;
 }
-
-.carousel-inner{
-  width: auto;
-  height: auto;
-  display: center;
-  background-color: #EB246C;
-}
 hr{
-  background-color: #24b6eb;
+  background-color: #EB246C;
   height: 10px;
   width: 100%;
   display: center;
@@ -242,7 +235,7 @@ height: max-content;
   flex-direction: row-reverse;
 }
 .BOTONES{
-  margin: 150px;
+  margin: 20px;
 }
 img{
   display: flex;
@@ -255,12 +248,31 @@ margin: 40px;
   border-color: #1a1a1a;
 }
 .Foto1{
-  display: inline-flexbox;
-  border-radius: 52%;
-  border-color: #EB246C;
-  border-top-left-radius: 36%;
+ display: center;
 }
 col-lg-6 px-0{
   display: flow-root;
   flex-direction: row-reverse;
+}
+.Frase{
+  margin: 33px;
+  color: #EB246C;
+}
+.carousel slide{
+margin: 20px;
+width: 300px;
+height: 400px;
+}
+.carousel-inner{
+  margin: 40px;
+  width: 500px;
+  
+}
+.carousel-inner{
+  width: auto;
+  height: auto;
+  display: center;
+}
+.p-4{
+  justify-content:space-around;
 }

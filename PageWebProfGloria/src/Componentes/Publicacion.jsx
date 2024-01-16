@@ -3,7 +3,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 const Publicacion = () => {
   return (
-<div id="carouselExampleIndicators" className="carousel slide">
+<div id="carouselExampleIndicators" className="carousel slide w-75 mx-auto">
+<br />
+<br />
     <h2>Publicaciones</h2>
         <p>The aria-current attribute indicates the element on which it is set, to a value other than false,
          represents the current item within a container or set of related elements. Only mark one element 
@@ -32,13 +34,13 @@ const Publicacion = () => {
   </div>
   <div className="carousel-inner" >
     <div className="carousel-item active">
-      <img src="/img/Piz1.jpg" className="d-block w-100" alt="Slide 1" />
+      <img src="/img/Piz2.jpg" className="d-block w-100" alt="Slide 1" />
     </div>
     <div className="carousel-item">
       <img src="/img/Piz2.jpg" className="d-block w-100" alt="Slide 2" />
     </div>
     <div className="carousel-item">
-      <img src="/img/Piz3.jpg" className="d-block w-100" alt="Slide 3" />
+      <img src="/img/Piz2.jpg" className="d-block w-100" alt="Slide 3" />
     </div>
   </div>
   <button

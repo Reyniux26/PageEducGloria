@@ -1,5 +1,4 @@
 import React from 'react'
-import { NavLink } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Acerca from './Componentes/Acerca';
 import { Header } from './Header'
@@ -13,57 +12,21 @@ export const Home = () => {
    {// Esto sí es un comentario JSX <h2 className='HeaderNombre'>Gloria del Jesús Hernández Marín</h2>
   }
   
-
-<div className="container">
-  <header className="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-    <a
-      href="/"
-      className="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
-    >
-      <svg className="bi me-2" width={40} height={32}>
-        <use xlinkHref="#bootstrap" />
-      </svg>
-      <span className="fs-4">Dra. Gloria del Jesús Hernández Marín  </span>
-    </a>
-    <ul className="nav nav-pills">
-      <li className="nav-item">
-        <a href="#" className="nav-link active" aria-current="page">
-          Inicio
-        </a>
-      </li>
-      <li className="nav-item">
-        <a href="/src/Pages/Trayectoria.jsx" className="nav-link">
-          Trayectoria
-        </a>
-      </li>
-      <li className="nav-item">
-        <a href="/src/Pages/Publicaciones.jsx" className="nav-link">
-          Publicaciones
-        </a>
-      </li>
-      <li className="nav-item">
-        <a href="/src/Pages/MaterialExterno.jsx" className="nav-link">
-          Material Externo
-        </a>
-      </li>
-      <li className="nav-item">
-        <a href="/src/Pages/Slider.jsx" className="nav-link">
-          Contacto
-        </a>
-      </li>
-    </ul>
-  </header>
-  
-</div>
+<Header></Header>
 <Acerca></Acerca>
 <div className='container-fras'>
     <hr/>
-    <h3>"Inserte aqui la frase"</h3>
+    <h2 className='Frase'>"La enseñanza que deja huella no es la que se hace de cabeza a cabeza, si no de corazón a corazón"</h2>
+    <h4>Howard G. Hendricks</h4>
     <hr/>
   </div>
 <Trayectoria></Trayectoria>
 <Publicacion></Publicacion>
 <Contacto></Contacto>
+<>
+ 
+</>
+
 
 </div>
   )
