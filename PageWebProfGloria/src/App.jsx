@@ -5,6 +5,8 @@ import './Home'
 import { Home } from './Home'
 import PagTrayec from './Pages/PagTrayec';
 import { BrowserRouter } from 'react-router-dom';
+import { Header } from './Header';
+import RoutersIndex from './Routers/RoutersIndex';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,8 +14,8 @@ function App() {
   return (
     <>
     <BrowserRouter>
-      <Home/>
-      <PagTrayec></PagTrayec>
+      <Header/>
+      <RoutersIndex/>
     </BrowserRouter>
     </>
   )

@@ -6,6 +6,8 @@ import Trayectoria from './Componentes/Trayectoria';
 import Contacto from './Componentes/Contacto';
 import Publicacion from './Componentes/Publicacion';
 import Elementos from './Componentes/Elementos';
+import Cards from './Cards';
+import PagTrayec from './Pages/PagTrayec';
 
 export const Home = () => {
   return (
@@ -13,7 +15,6 @@ export const Home = () => {
    {// Esto sí es un comentario JSX <h2 className='HeaderNombre'>Gloria del Jesús Hernández Marín</h2>
   }
   
-<Header></Header>
 <Acerca></Acerca>
 <div className='container-fras'>
     <hr/>
@@ -24,6 +25,8 @@ export const Home = () => {
 <Trayectoria></Trayectoria>
 <Publicacion></Publicacion>
 <Contacto></Contacto>
+<PagTrayec></PagTrayec>
+<Cards></Cards>
 <>
  
 </>

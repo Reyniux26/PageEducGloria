@@ -4,6 +4,8 @@ import { Home } from '../Home'
 import PagTrayec from '../Pages/PagTrayec'
 import Publicacion from '../Componentes/Publicacion'
 import PagMaterial from '../Pages/PagMaterial'
+import Contacto from '../Componentes/Contacto'
+import ErrorPage from '../Componentes/ErrorPage'
 
 const RoutersIndex = () => {
   return (
