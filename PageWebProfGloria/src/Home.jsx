@@ -5,6 +5,7 @@ import { Header } from './Header'
 import Trayectoria from './Componentes/Trayectoria';
 import Contacto from './Componentes/Contacto';
 import Publicacion from './Componentes/Publicacion';
+import Elementos from './Componentes/Elementos';
 
 export const Home = () => {
   return (
@@ -26,6 +27,7 @@ export const Home = () => {
 <>
  
 </>
+
 
 
 </div>

@@ -2,6 +2,7 @@ import React from 'react'
 
 const Contacto = () => {
   return (
+    <>
     <div className='BOTONES' >
        {/*Agregar espaciado superior en contacto*/}
       <h4>Contacto</h4>
@@ -34,6 +35,8 @@ const Contacto = () => {
     </div>
 
     </div>
+    
+    </>
   )
 } 
 
