@@ -16,6 +16,7 @@ export const Home = () => {
   }
   
 <Acerca></Acerca>
+
 <div className='container-fras'>
     <hr/>
     <h2 className='Frase'>"La enseñanza que deja huella no es la que se hace de cabeza a cabeza, si no de corazón a corazón"</h2>
@@ -25,8 +26,7 @@ export const Home = () => {
 <Trayectoria></Trayectoria>
 <Publicacion></Publicacion>
 <Contacto></Contacto>
-<PagTrayec></PagTrayec>
-<Cards></Cards>
+
 <>
  
 </>

@@ -7,9 +7,10 @@ const Publicacion = () => {
 <br />
 <br />
     <h2>Publicaciones</h2>
-        <p>The aria-current attribute indicates the element on which it is set, to a value other than false,
-         represents the current item within a container or set of related elements. Only mark one element 
-         in a set of elements as current with aria-current.</p>
+        <p className='lead'>Participaciones en distintivos eventos academicos internos y externos junto con aliados a la UNACAR Universidad Autonoma del Carmen
+          Se prepara en la distinción y colaboracion con prestigiosas universidades que conforman el coloquio de la educación en las distintivas areas
+          y carreras que contienen la unión universitaria en la generación universitaria  por la grandeza de México
+        </p>
   <div className="carousel-indicators">
     <button
       type="button"
@@ -34,13 +35,13 @@ const Publicacion = () => {
   </div>
   <div className="carousel-inner" >
     <div className="carousel-item active">
-      <img src="/img/Piz2.jpg" className="d-block w-100" alt="Slide 1" />
+      <img src="/img/Radio.jpg.png" className="d-block w-100" alt="Slide 1" />
     </div>
     <div className="carousel-item">
-      <img src="/img/Piz2.jpg" className="d-block w-100" alt="Slide 2" />
+      <img src="/img/Radio.jpg.png" className="d-block w-100" alt="Slide 2" />
     </div>
     <div className="carousel-item">
-      <img src="/img/Piz2.jpg" className="d-block w-100" alt="Slide 3" />
+      <img src="/img/Radio.jpg.png" className="d-block w-100" alt="Slide 3" />
     </div>
   </div>
   <button

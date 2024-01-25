@@ -6,6 +6,7 @@ import Publicacion from '../Componentes/Publicacion'
 import PagMaterial from '../Pages/PagMaterial'
 import Contacto from '../Componentes/Contacto'
 import ErrorPage from '../Componentes/ErrorPage'
+import PagPublic from '../Pages/PagPubli'
 
 const RoutersIndex = () => {
   return (
@@ -13,7 +14,7 @@ const RoutersIndex = () => {
     <Route path='/' element={<Home />} />
     <Route path='/Trayectoria' element={<PagTrayec/>} />
     <Route path='/contacto' element={<Contacto />} />
-    <Route path='/Publicaciones' element={<Publicacion/>} />
+    <Route path='/Publicaciones' element={<PagPublic/>} />
     <Route path='/MaterialExterno' element={<PagMaterial/>} />
     <Route path='*' element={<ErrorPage/>} />
   </Routes>
