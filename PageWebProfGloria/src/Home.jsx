@@ -8,6 +8,7 @@ import Publicacion from './Componentes/Publicacion';
 import Elementos from './Componentes/Elementos';
 import Cards from './Cards';
 import PagTrayec from './Pages/PagTrayec';
+import PiePag from './Componentes/PiePag';
 
 export const Home = () => {
   return (
@@ -26,7 +27,7 @@ export const Home = () => {
 <Trayectoria></Trayectoria>
 <Publicacion></Publicacion>
 <Contacto></Contacto>
-
+<PiePag></PiePag>
 <>
  
 </>

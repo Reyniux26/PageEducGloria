@@ -41,8 +41,8 @@ const Contacto = () => {
     <div className='container-bajo'>
 
     </div>
-
     </div>
+
     
     </>
   )

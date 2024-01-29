@@ -7,7 +7,7 @@ const Publicacion = () => {
 <br />
 <br />
     <h2>Publicaciones</h2>
-        <p className='lead'>Participaciones en distintivos eventos academicos internos y externos junto con aliados a la UNACAR Universidad Autonoma del Carmen
+        <p className='lead1'>Participaciones en distintivos eventos academicos internos y externos junto con aliados a la UNACAR Universidad Autonoma del Carmen
           Se prepara en la distinción y colaboracion con prestigiosas universidades que conforman el coloquio de la educación en las distintivas areas
           y carreras que contienen la unión universitaria en la generación universitaria  por la grandeza de México
         </p>
