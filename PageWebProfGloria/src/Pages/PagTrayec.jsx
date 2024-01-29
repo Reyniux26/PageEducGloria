@@ -1,10 +1,13 @@
 import React from 'react'
+import Trayectoria from '../Componentes/Trayectoria'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const PagTrayec = () => {
   return (
-    <div>
-   
-    </div>
+    <>
+   <Trayectoria/>
+   <br/>
+   </>
   )
 }
 

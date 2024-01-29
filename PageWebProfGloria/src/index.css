@@ -284,6 +284,25 @@ h2{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: 500;
 }
-h5.fs-2{
-  font-size: 40%;
+h5.card-title{
+  text-align: left;
+}
+p.card-text{
+  text-align: left;
+}
+.CardGeneral {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between; /* Ajusta el espacio entre las tarjetas */
+  flex-wrap: wrap; /* Permitir que las tarjetas se envuelvan a la siguiente línea */
+  
+}
+
+.card {
+  margin-bottom: 20px; /* Espacio entre las tarjetas */
 }
