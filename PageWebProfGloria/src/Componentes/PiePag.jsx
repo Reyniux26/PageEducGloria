@@ -13,7 +13,7 @@ const PiePag = () => {
         <div className="col-sm text-center align-self-end ">
             Gloria del Jesús Hernández Marín 
           <br />
-          Oficina: Ciudad del Carmen Campeche
+          Ciudad del Carmen Campeche
           <br />
           Universidad Autónoma del Carmen
           <br />

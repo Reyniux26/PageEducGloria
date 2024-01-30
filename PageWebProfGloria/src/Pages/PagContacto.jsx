@@ -8,16 +8,10 @@ const PagContacto = () => {
         <div className="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
   <div className="col-lg-6 px-0">
     <h1 className="display-4 fst-italic">
-      Title of a longer featured blog post
+      Manos a la obra
     </h1>
     <p className="lead my-3">
-      Multiple lines of text that form the lede, informing new readers quickly
-      and efficiently about what’s most interesting in this post’s contents.
-    </p>
-    <p className="lead mb-0">
-      <a href="#" className="text-body-emphasis fw-bold">
-        Continue reading...
-      </a>
+    Estoy lista para colaborar contigo en tu proximo proyecto, contactame para explorar como podemos trabajar juntos
     </p>
   </div>
 </div>

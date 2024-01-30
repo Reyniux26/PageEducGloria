@@ -5,89 +5,291 @@ function MaterialExterno() {
   return (
   
   <div>
-    <br/>
-    <br/>
-        <div className="row">
-  <div className="col-lg-4">
-    <svg
-      className="bd-placeholder-img rounded-circle"
-      width={140}
-      height={140}
-      xmlns="http://www.w3.org/2000/svg"
-      role="img"
-      aria-label="Placeholder"
-      preserveAspectRatio="xMidYMid slice"
-      focusable="false"
-    >
-      <title>Publicaciones</title>
-      <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
-    </svg>
-    <h2 className="fw-normal">Heading</h2>
-    <p>
-    Taller Estrategias de enseñanza para el 
-    personal docente del Centro de Estudios Superiores, 
-    Isla del Carmen, (CESIC), abril-mayo 2016.
-    </p>
-    <p>
-      <navLink  className="btn btn-secondary" to="#">
-        Ver más »
-      </navLink>
-    </p>
+  
+
+  <div className="album py-5 bg-body-tertiary">
+  <div className="container">
+    <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+      <div className="col">
+        <div className="card shadow-sm">
+          
+          <svg
+            className="bd-placeholder-img card-img-top"
+            width="100%"
+            height={225}
+            role="img"
+            aria-label="Placeholder: Thumbnail"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+          >
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#0000" />
+            <image href='/img/BPD.png' height="100%" width="100%"/>
+          </svg>
+          <div className="card-body">
+            <p  className="cardTitle">
+            Biblioteca Pública Digital
+            </p>
+            <div className="d-flex justify-content-between align-items-center">
+              <a target='_blank' href='https://www.bpdigital.cl/?locale=es'>
+                  <button
+                  type="button"
+                  className="btn btn-primary"
+                >
+                  Ir
+                </button>
+              </a>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div className="col">
+        <div className="card shadow-sm">
+          
+          <svg
+            className="bd-placeholder-img card-img-top"
+            width="100%"
+            height={225}
+            role="img"
+            aria-label="Placeholder: Thumbnail"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+          >
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#0000" />
+            <image href='/img/ILCE.png' height="100%" width="100%"/>
+          </svg>
+          <div className="card-body">
+            <p  className="cardTitle">
+            Biblioteca Digital ILCE
+            </p>
+            <div className="d-flex justify-content-between align-items-center">
+              <a target='_blank' href='http://bibliotecadigital.ilce.edu.mx/'>
+                  <button
+                  type="button"
+                  className="btn btn-primary"
+                >
+                  Ir
+                </button>
+              </a>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div className="col">
+        <div className="card shadow-sm">
+          
+          <svg
+            className="bd-placeholder-img card-img-top"
+            width="100%"
+            height={225}
+            role="img"
+            aria-label="Placeholder: Thumbnail"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+          >
+            <title>Placeholder</title>
+            <rect width="100%" height="100%" fill="#0000" />
+            <image href='/img/LibroTotal.jpg' height="100%" width="100%"/>
+          </svg>
+          <div className="card-body">
+            <p  className="cardTitle">
+            El libro total
+            </p>
+            <div className="d-flex justify-content-between align-items-center">
+              <a target='_blank' href='https://www.ellibrototal.com/ltotal/'>
+                  <button
+                  type="button"
+                  className="btn btn-primary"
+                >
+                  Ir
+                </button>
+              </a>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div className="col">
+        <div className="card shadow-sm">
+          
+          <svg
+            className="bd-placeholder-img card-img-top"
+            width="100%"
+            height={225}
+            role="img"
+            aria-label="Placeholder: Thumbnail"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+          >
+            <title>OpenLibra</title>
+            <rect width="100%" height="100%" fill="#0000" />
+            <image href='/img/OpenLibra.jpg' height="100%" width="100%"/>
+          </svg>
+          <div className="card-body">
+            <p  className="cardTitle">
+            Open libra
+            </p>
+            <div className="d-flex justify-content-between align-items-center">
+              <a target='_blank' href='https://apps.microsoft.com/detail/9NBLGGH68F7N?hl=es-do&gl=DO'>
+                  <button
+                  type="button"
+                  className="btn btn-primary"
+                >
+                  Ir
+                </button>
+              </a>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div className="col">
+        <div className="card shadow-sm">
+          
+          <svg
+            className="bd-placeholder-img card-img-top"
+            width="100%"
+            height={225}
+            role="img"
+            aria-label="Placeholder: Thumbnail"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+          >
+            <title>Trampolín FM</title>
+            <rect width="100%" height="100%" fill="#0000" />
+            <image href='/img/TrampolinFM.jpg' height="100%" width="100%"/>
+          </svg>
+          <div className="card-body">
+            <p  className="cardTitle">
+            Trampolín FM
+            </p>
+            <div className="d-flex justify-content-between align-items-center">
+              <a target='_blank' href='https://www.curriculumnacional.cl/portal/Curso/Educacion-General/1-basico/210145:Trampolin-FM'>
+                  <button
+                  type="button"
+                  className="btn btn-primary"
+                >
+                  Ir
+                </button>
+              </a>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div className="col">
+        <div className="card shadow-sm">
+          
+          <svg
+            className="bd-placeholder-img card-img-top"
+            width="100%"
+            height={225}
+            role="img"
+            aria-label="Placeholder: Thumbnail"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+          >
+            <title>Ta-tum</title>
+            <rect width="100%" height="100%" fill="#0000" />
+            <image href='/img/Tatum.png' height="100%" width="100%"/>
+          </svg>
+          <div className="card-body">
+            <p  className="cardTitle">
+            Ta-tum
+            </p>
+            <div className="d-flex justify-content-between align-items-center">
+              <a target='_blank' href='https://ta-tum.com/#welcome'>
+                  <button
+                  type="button"
+                  className="btn btn-primary"
+                >
+                  Ir
+                </button>
+              </a>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div className="col">
+        <div className="card shadow-sm">
+          
+          <svg
+            className="bd-placeholder-img card-img-top"
+            width="100%"
+            height={225}
+            role="img"
+            aria-label="Placeholder: Thumbnail"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+          >
+            <title>Redalyc</title>
+            <rect width="100%" height="100%" fill="#0000" />
+            <image href='/img/Redalyc.png' height="100%" width="100%"/>
+          </svg>
+          <div className="card-body">
+            <p  className="cardTitle">
+            Redalyc
+            </p>
+            <div className="d-flex justify-content-between align-items-center">
+              <a target='_blank' href='https://www.redalyc.org/'>
+                  <button
+                  type="button"
+                  className="btn btn-primary"
+                >
+                  Ir
+                </button>
+              </a>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div className="col">
+        <div className="card shadow-sm">
+          
+          <svg
+            className="bd-placeholder-img card-img-top"
+            width="100%"
+            height={225}
+            role="img"
+            aria-label="Placeholder: Thumbnail"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+          >
+            <title>GoogleScholar</title>
+            <rect width="100%" height="100%" fill="#0000" />
+            <image href='/img/GoogleAcademico.jpg' height="100%" width="100%"/>
+          </svg>
+          <div className="card-body">
+            <p  className="cardTitle">
+            Google Scholar
+            </p>
+            <div className="d-flex justify-content-between align-items-center">
+              <a target='_blank' href='https://scholar.google.es/schhp?hl=es'>
+                  <button
+                  type="button"
+                  className="btn btn-primary"
+                >
+                  Ir
+                </button>
+              </a>
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+
+    </div>
   </div>
-  {/* /.col-lg-4 */}
-  <div className="col-lg-4">
-    <svg
-      className="bd-placeholder-img rounded-circle"
-      width={140}
-      height={140}
-      xmlns="http://www.w3.org/2000/svg"
-      role="img"
-      aria-label="Placeholder"
-      preserveAspectRatio="xMidYMid slice"
-      focusable="false"
-    >
-      <title>Placeholder</title>
-      <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
-    </svg>
-    <h2 className="fw-normal"></h2>
-    <p>
-    	Curso-Taller Empleo de estrategias Afectivas, cognitivas y ambientales para el desarrollo de 
-      las Tutorías Grupales (2016) Dirigido a docentes y estudiantes tutores: Universidad Autónoma Benito 
-      Juárez de Oaxaca. (6 y 7 de septiembre).
-    </p>
-    <p>
-      <navLink className="btn btn-secondary" to="#">
-        Ver más »
-      </navLink>
-    </p>
-  </div>
-  {/* /.col-lg-4 */}
-  <div className="col-lg-4">
-    <svg
-      className="bd-placeholder-img rounded-circle"
-      width={140}
-      height={140}
-      xmlns="http://www.w3.org/2000/svg"
-      role="img"
-      aria-label="Placeholder"
-      preserveAspectRatio="xMidYMid slice"
-      focusable="false"
-    >
-      <title>Placeholder</title>
-      <rect width="100%" height="100%" fill="var(--bs-secondary-color)" />
-    </svg>
-    <h2 className="fw-normal">Heading</h2>
-    <p>
-      And lastly this, the third column of representative placeholder content.
-    </p>
-    <p>
-      <navLink className="btn btn-secondary" to="#">
-        Ver más »
-      </navLink>
-    </p>
-  </div>
-  {/* /.col-lg-4 */}
 </div>
+
+  
+
+
+
+
+
+
+
+    
 
     </div>
     

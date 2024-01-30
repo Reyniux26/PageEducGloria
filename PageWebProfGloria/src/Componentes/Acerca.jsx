@@ -29,6 +29,8 @@ const Acerca = () => {
     </div>
 </div>
 
+
+
     </div>
   )
 }
