@@ -11,7 +11,7 @@ const PagContacto = () => {
       Manos a la obra
     </h1>
     <p className="lead my-3">
-    Estoy lista para colaborar contigo en tu proximo proyecto, contactame para explorar como podemos trabajar juntos
+    Estoy lista para colaborar contigo en tu próximo proyecto, contáctame para explorar como podemos trabajar juntos
     </p>
   </div>
 </div>

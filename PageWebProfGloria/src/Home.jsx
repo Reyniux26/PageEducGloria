@@ -26,7 +26,7 @@ export const Home = () => {
   </div>
 <Trayectoria></Trayectoria>
 <Publicacion></Publicacion>
-<Contacto></Contacto>
+{/*<Contacto></Contacto>*/}
 <PiePag></PiePag>
 <>
  

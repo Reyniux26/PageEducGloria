@@ -274,6 +274,144 @@ function MaterialExterno() {
       </div>
     </div>
     </div>
+    <div className="col">
+        <div className="card shadow-sm">
+          
+          <svg
+            className="bd-placeholder-img card-img-top"
+            width="100%"
+            height={225}
+            role="img"
+            aria-label="Placeholder: Thumbnail"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+          >
+            <title>SciElo</title>
+            <rect width="100%" height="100%" fill="#0000" />
+            <image href='/img/SC.png' height="100%" width="100%"/>
+          </svg>
+          <div className="card-body">
+            <p  className="cardTitle">
+            SciElo
+            </p>
+            <div className="d-flex justify-content-between align-items-center">
+              <a target='_blank' href='https://scholar.google.es/schhp?hl=es'>
+                  <button
+                  type="button"
+                  className="btn btn-primary"
+                >
+                  Ir
+                </button>
+              </a>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div className="col">
+        <div className="card shadow-sm">
+          
+          <svg
+            className="bd-placeholder-img card-img-top"
+            width="100%"
+            height={225}
+            role="img"
+            aria-label="Placeholder: Thumbnail"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+          >
+            <title>SPRINGER</title>
+            <rect width="100%" height="100%" fill="#0000" />
+            <image href='/img/Springer.jpg' height="100%" width="100%"/>
+          </svg>
+          <div className="card-body">
+            <p  className="cardTitle">
+            Springer
+            </p>
+            <div className="d-flex justify-content-between align-items-center">
+              <a target='_blank' href='https://link.springer.com/'>
+                  <button
+                  type="button"
+                  className="btn btn-primary"
+                >
+                  Ir
+                </button>
+              </a>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div className="col">
+        <div className="card shadow-sm">
+          
+          <svg
+            className="bd-placeholder-img card-img-top"
+            width="100%"
+            height={225}
+            role="img"
+            aria-label="Placeholder: Thumbnail"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+          >
+            <title>ELSIEVER</title>
+            <rect width="100%" height="100%" fill="#0000" />
+            <image href='/img/ELSEVIER.jpg' height="100%" width="100%"/>
+          </svg>
+          <div className="card-body">
+            <p  className="cardTitle">
+            ELSIEVER
+            </p>
+            <div className="d-flex justify-content-between align-items-center">
+              <a target='_blank' href='https://link.springer.com/'>
+                  <button
+                  type="button"
+                  className="btn btn-primary"
+                >
+                  Ir
+                </button>
+              </a>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div className="col">
+        <div className="card shadow-sm">
+          
+          <svg
+            className="bd-placeholder-img card-img-top"
+            width="100%"
+            height={225}
+            role="img"
+            aria-label="Placeholder: Thumbnail"
+            preserveAspectRatio="xMidYMid slice"
+            focusable="false"
+          >
+            <title>ELSIEVER</title>
+            <rect width="100%" height="100%" fill="#0000" />
+            <image href='/img/UNACAR.jpeg' height="100%" width="100%"/>
+          </svg>
+          <div className="card-body">
+            <p  className="cardTitle">
+            Biblioteca Digital UNACAR
+            </p>
+            <div className="d-flex justify-content-between align-items-center">
+              <a target='_blank' href='https://www.unacar.mx/contenido/biblioteca/biblioteca%20central.html/'>
+                  <button
+                  type="button"
+                  className="btn btn-primary"
+                >
+                  Ir
+                </button>
+              </a>
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+
+
+
+
 
 
 
