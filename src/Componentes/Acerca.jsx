@@ -23,7 +23,7 @@ const Acerca = () => {
           </p>
         </div>
         <div className="Foto1">
-          <img className='pres' src="/img/Gloria.jpg" width="300" height="400" />
+          <img className='pres img-fluid' src="/img/Gloria.jpg" width="300" height="400" />
         </div>
       </div>
     </div>
