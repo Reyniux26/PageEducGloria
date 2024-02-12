@@ -20,8 +20,8 @@ export const Home = () => {
 
 <div className='container-fras'>
     <hr/>
-    <h2 className='Frase'>"La enseñanza que deja huella no es la que se hace de cabeza a cabeza, si no de corazón a corazón"</h2>
-    <h4>Howard G. Hendricks</h4>
+    <h2 className='Frase'>"Seamos lectores de nosotros mismos ¡Te sorprenderá tu majestuosidad!"</h2>
+    <h4>Gloria del Jesús Hernández Marín</h4>
     <hr/>
   </div>
 <Trayectoria></Trayectoria>
